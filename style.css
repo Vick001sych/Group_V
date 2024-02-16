@@ -1,0 +1,218 @@
+/* .box{
+    display: flex;
+}
+.box1{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(239,239,239);
+}
+.box2{
+    background-color: rgb(227,227,227);
+    width: 70%;
+    height: 100px;
+}
+.menu{
+    margin-left: 50%;
+    color: black;
+}
+.B{
+    background-color: rgb(217,217,217);
+    width: 100%;
+    height: 300px;
+}
+.b{
+    display: flex;
+}
+.box3{
+    width: 35%;
+    height: 200px;
+    background-color: rgb(209,209,209);
+}
+.box4{
+    width: 35%;
+    height: 200px;
+    background-color: rgb(199,199,199);
+}
+.box5{
+    width: 35%;
+    height: 200px;
+    background-color: rgb(188,188,188);
+}
+.bb{
+    display: flex;
+}
+.box6{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(177,177,177);
+}
+.box7{
+    width: 40%;
+    height: 100px;
+    background-color: rgb(163,163,163);
+}
+
+.box8{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(157,157,157);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 14px 16px;
+    background-color: rgb(176,176,176);
+    margin-top: 30px;
+    display: block;
+
+  }
+  li a:hover{
+    background-color: #696969;
+  } 
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+    /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
+.boxx::after {
+    content: ',Hello';
+}
+.boxx::before {
+    content: 'Hello,';
+}
+.article {
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 5%;
+    overflow-y: scroll;
+    text-align: right;
+    background-color: antiquewhite;
+    background-image: url("../img/dog.jpg");
+    background-position: center; 
+    background-size: 150px;
+    background-repeat: no-repeat;
+   
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    padding: 10px;
+}
+header{
+    background-image: url("../img/img.jpg");
+    background-position: 100px ; 
+    /* background-size: 150px; */
+    /* background-repeat: no-repeat; */
+    /* background-color: antiquewhite; */
+    background-size: 10%;
+    
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(148, 152, 156);
+    height: 80px;
+    background-color:#1e1f1c;
+}
+
+.position-parent {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.position-child {
+    position: absolute;
+    background-color:beige;
+    
+
+}
